@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app = 'lab3'>
+<head>
+    <meta charset="UTF-8">
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+        <script src="app.js"></script>
+        <title>Лабораторна робота номер 3</title>
+</head>
+<body>
+<div ng-controller="controller">
+    <label>Введіть сніданок: </label><br>
+    <input type="result" ng-model="list"> <br>
+    <button ng-click="setResult()">Чи не забагато?</button>
+        <div class="result">{{result}}</div>
+</div>
+</body>
+</html>
